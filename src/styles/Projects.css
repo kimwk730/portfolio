@@ -71,8 +71,7 @@ h1 {
 	transition-duration: 0.2s;
 }
 .projectItem .githubLogo {
-	width: 30px;
-	display: inline-block;
+	font-size: 30px;
 	transition-duration: 0.2s;
 }
 .projectItem button:hover {
@@ -84,5 +83,5 @@ h1 {
 	color: var(--beige);
 }
 .projectItem .githubLogo:hover {
-	width: 40px;
+	color: #4f4c43;
 }

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "../styles/Navbar.css";
 
 function Navbar() {
@@ -21,7 +22,7 @@ function Navbar() {
 					}}
 				>
 					{" "}
-					<FontAwesomeIcon icon="fa-solid fa-bars" />{" "}
+					<FontAwesomeIcon icon={faBars} />{" "}
 				</button>
 			</div>
 			<div className="links">

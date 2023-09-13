@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faRocket } from "@fortawesome/free-solid-svg-icons";
 
 function ProjectItem({ image, name, skill, id, website, github }) {
 	return (
@@ -13,10 +16,11 @@ function ProjectItem({ image, name, skill, id, website, github }) {
 					<button>
 						<a href={website} target="_blank" rel="noreferrer">
 							Launch
+							<FontAwesomeIcon icon={faRocket} />
 						</a>
 					</button>
 					<a href={github} target="_blank" rel="noreferrer">
-						<img src="/" className="githubLogo" alt="github logo" />
+						<FontAwesomeIcon icon={faGithub} className="githubLogo" />
 					</a>
 				</div>
 			</div>

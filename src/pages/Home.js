@@ -1,4 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faReact } from "@fortawesome/free-brands-svg-icons";
+import { faJs } from "@fortawesome/free-brands-svg-icons";
+import { faCss3Alt } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
+import { faFigma } from "@fortawesome/free-brands-svg-icons";
+
 import "../styles/Home.css";
 
 function Home() {
@@ -13,7 +20,14 @@ function Home() {
 			</div>
 			<main>
 				<div>Projects</div>
+				<div className="fontA"></div>
+
 				<div>Skills</div>
+				<FontAwesomeIcon icon={faReact} />
+				<FontAwesomeIcon icon={faJs} />
+				<FontAwesomeIcon icon={faCss3Alt} />
+				<FontAwesomeIcon icon={faHtml5} />
+				<FontAwesomeIcon icon={faFigma} />
 				<ul>
 					<li>React.js</li>
 					<li>Javascript</li>
