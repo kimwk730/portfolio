@@ -1,0 +1,96 @@
+.navbar {
+	width: 100%;
+	height: 80px;
+	background: var(--beige);
+	margin: 0;
+}
+
+.links {
+	color: #4f4c43;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar a {
+	color: #4f4c43;
+	text-decoration: none;
+	margin: 20px;
+	font-size: 20px;
+	font-weight: 200;
+}
+.navbar a:hover {
+	font-weight: 400;
+}
+
+.toggleButton {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.toggleButton svg {
+	font-size: 50px;
+}
+.toggleButton button {
+	color: #4f4c43;
+	margin-right: 20px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+#open {
+	height: 100vh;
+}
+
+#open .links {
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 100px;
+}
+
+#open a {
+	width: 100%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+	.navbar a {
+		width: 70px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.toggleButton {
+		display: flex;
+	}
+	#close .links {
+		display: none;
+	}
+	#close a {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.toggleButton {
+		display: none;
+	}
+
+	.hiddenLinks {
+		display: none;
+	}
+
+	#open {
+		height: 100px;
+	}
+
+	#open .links {
+		flex-direction: row;
+	}
+}

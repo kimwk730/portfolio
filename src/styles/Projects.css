@@ -1,0 +1,88 @@
+.projects {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: var(--beige);
+}
+h1 {
+	font-size: 60px;
+	font-family: var(--accentFont);
+	letter-spacing: 5px;
+	padding: 30px;
+}
+.projectItem {
+	max-width: 70vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	padding: 20px;
+	margin: 30px;
+	background-color: var(--tan);
+	box-shadow: 10px 10px 20px rgba(79, 76, 67, 0.2);
+	border: 1px solid white;
+}
+#toLeft {
+	text-align: left;
+	border-radius: 200px 5px 5px 200px;
+}
+#toRight {
+	flex-direction: row-reverse;
+	text-align: right;
+	border-radius: 5px 200px 200px 5px;
+}
+.projectItem .projPic {
+	max-height: 250px;
+	border: 3px double white;
+	border-radius: 7x;
+}
+.projectItem .info {
+	height: 250px;
+	flex-grow: 1;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.projectItem .info h2 {
+	font-size: 30px;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-family: var(--accentFont);
+}
+.projectItem .info p {
+	font-size: 20px;
+	font-weight: 100;
+}
+.projectItem a {
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	transition-duration: 0.2s;
+}
+.projectItem button {
+	background-color: var(--tan);
+	padding: 4px 16px;
+	border: 1px solid white;
+	border-radius: 10px;
+	transition-duration: 0.2s;
+}
+.projectItem .githubLogo {
+	width: 30px;
+	display: inline-block;
+	transition-duration: 0.2s;
+}
+.projectItem button:hover {
+	color: var(--beige);
+	background-color: #4f4c43;
+	border: none;
+}
+.projectItem a:hover {
+	color: var(--beige);
+}
+.projectItem .githubLogo:hover {
+	width: 40px;
+}

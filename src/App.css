@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Libre+Baskerville:ital@0;1&display=swap");
+
+:root {
+	font-family: "Inter", sans-serif;
+	--accentFont: "Libre Baskerville", serif;
+
+	color: #4f4c43;
+	--beige: #e6dfd8;
+	--tan: #c8c0b5;
+}
+
+.App {
+	text-align: center;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
