@@ -13,14 +13,11 @@ function ProjectItem({ image, name, skill, id, website, github }) {
 				<h2>{name}</h2>
 				<p>{skill}</p>
 				<div className="links">
-					<button>
-						<a href={website} target="_blank" rel="noreferrer">
-							Launch
-							<FontAwesomeIcon icon={faRocket} />
-						</a>
-					</button>
+					<a href={website} target="_blank" rel="noreferrer">
+						<FontAwesomeIcon icon={faRocket} className="link" title="Launch" />
+					</a>
 					<a href={github} target="_blank" rel="noreferrer">
-						<FontAwesomeIcon icon={faGithub} className="githubLogo" />
+						<FontAwesomeIcon icon={faGithub} className="link" title="Github" />
 					</a>
 				</div>
 			</div>

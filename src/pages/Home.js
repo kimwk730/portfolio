@@ -4,8 +4,8 @@ import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { faJs } from "@fortawesome/free-brands-svg-icons";
 import { faCss3Alt } from "@fortawesome/free-brands-svg-icons";
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
+import { faBootstrap } from "@fortawesome/free-brands-svg-icons";
 import { faFigma } from "@fortawesome/free-brands-svg-icons";
-
 import "../styles/Home.css";
 
 function Home() {
@@ -19,23 +19,28 @@ function Home() {
 				<h3>Frontend developer based in Hawaii, US</h3>
 			</div>
 			<main>
-				<div>Projects</div>
-				<div className="fontA"></div>
+				<div className="title">Projects</div>
+				<div className="title">Skills</div>
 
-				<div>Skills</div>
-				<FontAwesomeIcon icon={faReact} />
-				<FontAwesomeIcon icon={faJs} />
-				<FontAwesomeIcon icon={faCss3Alt} />
-				<FontAwesomeIcon icon={faHtml5} />
-				<FontAwesomeIcon icon={faFigma} />
 				<ul>
-					<li>React.js</li>
-					<li>Javascript</li>
-					<li>Bootstrap</li>
-					<li>CSS</li>
-					<li>HTML</li>
-					<li>Figma</li>
-					<li>SEO</li>
+					<li>
+						React.js <FontAwesomeIcon icon={faReact} />
+					</li>
+					<li>
+						Javascript <FontAwesomeIcon icon={faJs} />
+					</li>
+					<li>
+						CSS <FontAwesomeIcon icon={faCss3Alt} />
+					</li>
+					<li>
+						HTML <FontAwesomeIcon icon={faHtml5} />
+					</li>
+					<li>
+						Bootstrap <FontAwesomeIcon icon={faBootstrap} />
+					</li>
+					<li>
+						Figma <FontAwesomeIcon icon={faFigma} />
+					</li>
 				</ul>
 			</main>
 		</div>
