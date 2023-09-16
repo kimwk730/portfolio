@@ -6,7 +6,7 @@ import "../styles/Projects.css";
 function Projects() {
 	return (
 		<div className="projects">
-			<h1>PROJECTS</h1>
+			<h1 className="tracking-in-expand">PROJECTS</h1>
 			<div className="projectList">
 				{ProjectList.map((project) => {
 					return (

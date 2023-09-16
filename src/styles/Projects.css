@@ -13,6 +13,21 @@ h1 {
 	letter-spacing: 5px;
 	padding: 30px;
 }
+.tracking-in-expand {
+	animation: tracking-in-expand 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+}
+@keyframes tracking-in-expand {
+	0% {
+		letter-spacing: -0.5em;
+		opacity: 0;
+	}
+	40% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 .projectItem {
 	max-width: 70vw;
 	display: flex;
@@ -23,7 +38,7 @@ h1 {
 	margin: 30px;
 	background-color: var(--tan);
 	box-shadow: 10px 10px 20px rgba(79, 76, 67, 0.2);
-	border: 1px solid white;
+	border: 3px double white;
 }
 #toLeft {
 	text-align: left;

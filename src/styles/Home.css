@@ -20,6 +20,23 @@
 	text-shadow: 5px 5px 10px rgba(79, 76, 67, 0.4);
 	letter-spacing: 5px;
 }
+.tracking-in-expand {
+	animation: tracking-in-expand 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+}
+
+@keyframes tracking-in-expand {
+	0% {
+		letter-spacing: -0.5em;
+		opacity: 0;
+	}
+	40% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 .hero h2 {
 	font-size: 40px;
 	font-weight: 100;
@@ -34,4 +51,30 @@ main .title {
 	font-family: var(--accentFont);
 	letter-spacing: 5px;
 	padding: 30px;
+}
+body {
+	background-color: #eceaea;
+}
+
+.text-line text {
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+	animation: dash 5s linear forwards, filling 4s ease-in forwards;
+}
+
+@keyframes dash {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes filling {
+	from {
+		fill: white;
+		fill-opacity: 0;
+	}
+	to {
+		fill: #4f4c43;
+		fill-opacity: 1;
+	}
 }
