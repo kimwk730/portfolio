@@ -15,20 +15,16 @@ function Home() {
 				<h2>
 					<em>Hello, </em>I am
 				</h2>
-				<h1 className="text-line">WON KIM</h1>
+				<div className="myName">
+					<svg>
+						<text x="50" y="90" fill="none">
+							Won Kim
+						</text>
+					</svg>
+				</div>
 				<h3>Frontend developer based in Hawaii, US</h3>
-				<svg
-					height="100"
-					width="1000"
-					stroke="#4F4C43"
-					stroke-width="2"
-					class="text-line"
-				>
-					<text x="50" y="90" fill="none" font-size="100">
-						Won Kim
-					</text>
-				</svg>
 			</div>
+
 			<main>
 				<div className="title">Projects</div>
 				<div className="title">Skills</div>
