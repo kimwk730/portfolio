@@ -1,16 +1,34 @@
 .footer {
 	height: 200px;
-	background: var(--beige);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 	padding-top: 10px;
 	margin-top: 200px;
 }
-
+.footer .inquiryBox {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #146060;
+	width: 70%;
+	margin: 0 auto;
+	padding: 30px;
+	border: none;
+	border-radius: 8px;
+}
+.footer h2 {
+	font-family: var(--accentFont);
+	font-size: 40px;
+	color: var(--yellow);
+}
+.footer h3 {
+	font-weight: 200;
+}
+.footer button {
+	padding: 15px 20px;
+	border-radius: 8px;
+	border: none;
+	background-color: var(--yellow);
+}
 .socialMedia svg {
-	margin: 20px;
 	font-size: 70px;
 	cursor: pointer;
 }
