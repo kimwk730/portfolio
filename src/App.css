@@ -4,9 +4,10 @@
 	font-family: "Inter", sans-serif;
 	--accentFont: "Libre Baskerville", serif;
 
-	color: #4f4c43;
-	--beige: #e6dfd8;
-	--tan: #c8c0b5;
+	color: #faf5e4;
+	--green: #004445;
+	--lightgreen: #2c786c;
+	--yellow: #f8b400;
 }
 
 .App {

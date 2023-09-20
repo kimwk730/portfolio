@@ -5,13 +5,14 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-color: var(--beige);
+	background-color: var(--lightgreen);
 }
 h1 {
 	font-size: 60px;
 	font-family: var(--accentFont);
 	letter-spacing: 5px;
 	padding: 30px;
+	color: var(--yellow);
 }
 .tracking-in-expand {
 	animation: tracking-in-expand 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
@@ -36,9 +37,9 @@ h1 {
 	gap: 40px;
 	padding: 20px;
 	margin: 30px;
-	background-color: var(--tan);
+	background-color: var(--green);
 	box-shadow: 10px 10px 20px rgba(79, 76, 67, 0.2);
-	border: 3px double white;
+	border: 3px double #faf5e4;
 }
 #toLeft {
 	text-align: left;
@@ -51,13 +52,13 @@ h1 {
 }
 .projectItem .projPic {
 	max-height: 250px;
-	border: 3px double white;
+	border: 3px double #faf5e4;
 	border-radius: 7x;
 }
 .projectItem .info {
 	height: 250px;
 	flex-grow: 1;
-	color: white;
+	color: #faf5e4;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -77,10 +78,10 @@ h1 {
 }
 .projectItem .link {
 	font-size: 30px;
-	color: #4f4c43;
+	color: #faf5e4;
 	transition-duration: 0.2s;
 	padding: 10px;
 }
 .projectItem .link:hover {
-	color: white;
+	color: var(--lightgreen);
 }

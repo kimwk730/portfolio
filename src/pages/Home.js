@@ -17,7 +17,7 @@ function Home() {
 				</h2>
 				<div className="myName">
 					<svg>
-						<text x="50" y="90" fill="none">
+						<text x="0" y="90" fill="none">
 							Won Kim
 						</text>
 					</svg>
