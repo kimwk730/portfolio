@@ -1,0 +1,29 @@
+.inquiryBox {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #146060;
+	width: 70%;
+	margin: 50px auto;
+	padding: 30px;
+	border: none;
+	border-radius: 8px;
+}
+h2 {
+	font-family: var(--accentFont);
+	font-size: 40px;
+	color: var(--yellow);
+}
+h3 {
+	letter-spacing: 3px;
+}
+button {
+	padding: 15px 20px;
+	border-radius: 8px;
+	border: none;
+	background-color: var(--yellow);
+}
+button:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}

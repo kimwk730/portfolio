@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectItem from "../components/ProjectItem";
 import { ProjectList } from "../helpers/ProjectList.js";
+import Inquiry from "../components/Inquiry";
 import "../styles/Projects.css";
 
 function Projects() {
@@ -21,6 +22,8 @@ function Projects() {
 					);
 				})}
 			</div>
+			<p className="notes">..and more to come!</p>
+			<Inquiry />
 		</div>
 	);
 }

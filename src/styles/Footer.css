@@ -1,40 +1,23 @@
 .footer {
-	height: 200px;
-	padding-top: 10px;
-	margin-top: 200px;
+	height: 100px;
+	margin: 50px;
+	font-weight: 100;
 }
-.footer .inquiryBox {
+.footer p {
+	line-height: 36px;
+}
+.footer .linkIcons {
+	font-size: 20px;
 	display: flex;
+	max-width: 20vw;
 	justify-content: space-evenly;
-	align-items: center;
-	background-color: #146060;
-	width: 70%;
-	margin: 0 auto;
-	padding: 30px;
-	border: none;
-	border-radius: 8px;
+	margin: 10px auto;
 }
-.footer h2 {
-	font-family: var(--accentFont);
-	font-size: 40px;
-	color: var(--yellow);
-}
-.footer h3 {
-	font-weight: 200;
-}
-.footer button {
-	padding: 15px 20px;
-	border-radius: 8px;
-	border: none;
-	background-color: var(--yellow);
-}
-.socialMedia svg {
-	font-size: 70px;
-	cursor: pointer;
+.footer a {
+	text-decoration: none;
+	color: white;
 }
 
-@media only screen and (max-width: 600px) {
-	.footer svg {
-		font-size: 50px;
-	}
+.footer a:hover {
+	color: var(--yellow);
 }

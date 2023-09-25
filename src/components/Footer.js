@@ -10,24 +10,33 @@ import "../styles/Footer.css";
 function Footer() {
 	return (
 		<div className="footer">
-			<div className="inquiryBox">
-				<div>
-					<h2>Work Inquiry</h2>
-					<h3>Let's work together</h3>
-				</div>
-				<button>Contact me</button>
-			</div>
-			<div className="linkIcons">
-				<FontAwesomeIcon icon={faGithub} className="link" title="Github" />
-				<FontAwesomeIcon icon={faLinkedinIn} />
-				<FontAwesomeIcon icon={faEnvelope} />
-			</div>
-
 			<p>
-				<a href="../pages/Contact.js">Open source</a> website coded by Won Kim{" "}
-				<br />
+				<a
+					href="https://github.com/kimwk730/portfolio"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<strong>Open source</strong>
+				</a>{" "}
+				website coded by Won Kim <br />
 				&copy; 2023 wonkim.dev
 			</p>
+			<div className="linkIcons">
+				<a href="https://github.com/kimwk730" target="_blank" rel="noreferrer">
+					<FontAwesomeIcon icon={faGithub} title="Github" />
+				</a>
+				<a
+					href="https://www.linkedin.com/in/wonkyoungkim/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<FontAwesomeIcon icon={faLinkedinIn} title="LinkedIn" />
+				</a>
+				<a href="mailto:kimwk730@gmail.com">
+					{" "}
+					<FontAwesomeIcon icon={faEnvelope} title="Email" />
+				</a>
+			</div>
 		</div>
 	);
 }

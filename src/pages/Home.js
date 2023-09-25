@@ -6,6 +6,7 @@ import { faCss3Alt } from "@fortawesome/free-brands-svg-icons";
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
 import { faBootstrap } from "@fortawesome/free-brands-svg-icons";
 import { faFigma } from "@fortawesome/free-brands-svg-icons";
+import Inquiry from "../components/Inquiry";
 import "../styles/Home.css";
 
 function Home() {
@@ -50,6 +51,7 @@ function Home() {
 					</li>
 				</ul>
 			</main>
+			<Inquiry />
 		</div>
 	);
 }
