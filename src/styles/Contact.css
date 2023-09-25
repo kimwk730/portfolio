@@ -1,7 +1,12 @@
+.contact {
+	padding: 40px;
+}
 .contact h1 {
-	padding-top: 80px;
+	padding-top: 60px;
 }
 .contact h2 {
+	font-family: "Inter", sans-serif;
+	font-size: 25px;
 	font-weight: 200;
 	letter-spacing: 5px;
 	line-height: 2em;

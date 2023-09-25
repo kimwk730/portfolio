@@ -20,6 +20,7 @@ body {
 
 .hero text {
 	font-size: 80px;
+	font-weight: 700;
 	letter-spacing: 5px;
 	stroke-dasharray: 500;
 	stroke-dashoffset: 500;
