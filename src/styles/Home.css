@@ -5,7 +5,7 @@ body {
 	background-color: var(--green);
 }
 .hero {
-	height: 80vh;
+	height: 60vh;
 	padding: 100px 50px;
 	text-align: left;
 	background: var(--green);
@@ -47,25 +47,72 @@ body {
 	font-size: 40px;
 	font-weight: 100;
 	color: #faf5e4;
+	padding-left: 20px;
 }
 .hero h3 {
 	font-size: 22px;
 	color: var(--orange);
+	padding-left: 20px;
 }
+@media only screen and (max-width: 600px) {
+	.hero text {
+		font-size: 60px;
+	}
+}
+
 main {
 	background-color: var(--lightgreen);
 	width: 100%;
 	margin: 0 auto;
+	padding: 80px 30px;
 }
 main .title {
 	font-size: 60px;
 	font-family: var(--accentFont);
 	letter-spacing: 5px;
 	padding: 30px;
+	margin-top: 50px;
+}
+main .projectPreview {
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+	padding: 30px;
+}
+main .projectPreview img {
+	border-radius: 6px;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+main .projectPreview div {
+	padding: 10px;
+	font-weight: 200;
+}
+main .more {
+	background-color: var(--lightgreen);
+	padding: 15px 20px;
+	border-radius: 8px;
+	border: 1px #faf5e4 solid;
+	color: #faf5e4;
+	font-weight: 800;
+}
+button:hover {
+	opacity: 0.7;
+	cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
-	.hero text {
-		font-size: 60px;
-	}
+main ul {
+	list-style-type: none;
+	padding: 0;
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+}
+main li {
+	background-color: var(--orange);
+	color: var(--green);
+	padding: 16px;
+	border-radius: 6px;
+	font-size: 20px;
+	font-weight: 800;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }

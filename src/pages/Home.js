@@ -1,4 +1,5 @@
 import React from "react";
+import { ProjectList } from "../helpers/ProjectList.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { faJs } from "@fortawesome/free-brands-svg-icons";
@@ -18,7 +19,7 @@ function Home() {
 				</h2>
 				<div className="myName">
 					<svg>
-						<text x="0" y="90" fill="none">
+						<text x="20" y="90" fill="none">
 							Won Kim
 						</text>
 					</svg>
@@ -28,26 +29,47 @@ function Home() {
 
 			<main>
 				<div className="title">Projects</div>
+				<div className="projectPreview">
+					{ProjectList.map((project) => {
+						return (
+							<div className="previewItem">
+								<img
+									src={project.image}
+									className="projPic"
+									alt={project.name}
+									height="200"
+								/>
+								<div>
+									{"<"}
+									{project.name}
+									{">"}
+								</div>
+							</div>
+						);
+					})}
+				</div>
+				<a href="../Projects">
+					<button className="more">Learn More</button>
+				</a>
 				<div className="title">Skills</div>
-
 				<ul>
 					<li>
-						React.js <FontAwesomeIcon icon={faReact} />
+						<FontAwesomeIcon icon={faReact} /> React.js
 					</li>
 					<li>
-						Javascript <FontAwesomeIcon icon={faJs} />
+						<FontAwesomeIcon icon={faJs} /> Javascript
 					</li>
 					<li>
-						CSS <FontAwesomeIcon icon={faCss3Alt} />
+						<FontAwesomeIcon icon={faCss3Alt} /> CSS
 					</li>
 					<li>
-						HTML <FontAwesomeIcon icon={faHtml5} />
+						<FontAwesomeIcon icon={faHtml5} /> HTML
 					</li>
 					<li>
-						Bootstrap <FontAwesomeIcon icon={faBootstrap} />
+						<FontAwesomeIcon icon={faBootstrap} /> Bootstrap
 					</li>
 					<li>
-						Figma <FontAwesomeIcon icon={faFigma} />
+						<FontAwesomeIcon icon={faFigma} /> Figma
 					</li>
 				</ul>
 			</main>

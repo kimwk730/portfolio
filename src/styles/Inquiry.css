@@ -9,21 +9,22 @@
 	border: none;
 	border-radius: 8px;
 }
-h2 {
+.inquiryBox h2 {
 	font-family: var(--accentFont);
 	font-size: 40px;
 	color: var(--yellow);
 }
-h3 {
+.inquiryBox h3 {
 	letter-spacing: 3px;
 }
-button {
+.inquiryBox button {
 	padding: 15px 20px;
 	border-radius: 8px;
 	border: none;
 	background-color: var(--yellow);
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
-button:hover {
+.inquiryBox button:hover {
 	opacity: 0.7;
 	cursor: pointer;
 }
