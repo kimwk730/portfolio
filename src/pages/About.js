@@ -14,8 +14,8 @@ function About() {
 		<>
 			<div className="about">
 				<h2>
-					Aloha, <br />
-					<span className="name">I'm Won.</span>
+					Aloha <br />
+					<span className="name">I'm Won</span>
 					<br /> a web developer based in Hawaii
 				</h2>
 				<p>
