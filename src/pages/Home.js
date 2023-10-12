@@ -1,5 +1,6 @@
 import React from "react";
 import { ProjectList } from "../helpers/ProjectList.js";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { faJs } from "@fortawesome/free-brands-svg-icons";
@@ -48,9 +49,12 @@ function Home() {
 						);
 					})}
 				</div>
-				<a href="../Projects">
-					<button className="more">Learn More</button>
-				</a>
+				<button className="more">
+					<Link to="/projects" className="linkButton">
+						Learn More
+					</Link>
+				</button>
+
 				<div className="title">Skills</div>
 				<ul>
 					<li>

@@ -92,8 +92,14 @@ main .more {
 	padding: 15px 20px;
 	border-radius: 8px;
 	border: 1px #faf5e4 solid;
-	color: #faf5e4;
+	display: block;
+	margin: 0 auto;
+
 	font-weight: 800;
+}
+main .more .linkButton {
+	color: #faf5e4;
+	text-decoration: none;
 }
 button:hover {
 	opacity: 0.7;
