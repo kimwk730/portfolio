@@ -31,6 +31,7 @@ export const ProjectList = [
 	{
 		name: "Dictionary App",
 		image: Proj4,
+		skill: "React.js, Dictionary API",
 		id: "toRight",
 		website: "https://dictionary-app-wonkim.netlify.app",
 		github: "https://github.com/kimwk730/dictionary-app",
