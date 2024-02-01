@@ -19,13 +19,14 @@ function About() {
 					<br /> a web developer based in Hawaii
 				</h2>
 				<p>
-					My passions are traveling, painting, gaming, and, of course, coding. I
-					absolutely love the challenges and problem-solvings in the programming
-					world, and I'm glad I can share my projects with you. Currently, I'm
-					on a journey becoming a full-stack engineer. Projects I complete along
-					the route will be updated here regularly. Meanwhile, if you are
-					interested in creating something innovative and beautiful with me,
-					please contact me now!
+					My passions encompass traveling, painting, designing, and, of course,
+					coding. I find immense satisfaction in tackling the challenges and
+					engaging in problem-solving inherent in the programming realm, and I
+					am eager to share my projects with you. Currently, I am on a journey
+					toward becoming a full-stack engineer, and I will consistently update
+					my completed projects here. In the meantime, if you share an interest
+					in collaborating on innovative and aesthetically pleasing creations,
+					please feel free to reach out to me.
 				</p>
 				<h3>Tools and Techs</h3>
 				<div className="techs">
